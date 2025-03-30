@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login/Register</title>
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/query.css" />
+  </head>
+  <body id="register-login">
+    <div class="register-login-wrapper">
+      <div id="header"></div>
+      <main>
+        <section class="register-login-container grid grid--2--cols">
+          <form action="" class="login-form">
+            <h2
+              class="heading-secondary uppercase text-align-cen margin-bot-sm"
+            >
+              Login
+            </h2>
+            <input type="email" placeholder="Email Address" />
+            <input type="password" placeholder="Password" />
+            <button class="btn-filled margin-bot-sm">Login</button>
+            <button class="btn-forgot-password">Forgot your password?</button>
+          </form>
+
+          <dialog class="forgot-password-modal">
+            <div class="forgot-password-container">
+              <button class="close-forgot-password close">&times;</button>
+              <h2
+                class="heading-secondary text-align-cen uppercase margin-bot-sm"
+              >
+                Forgot your password?
+              </h2>
+              <p class="forgot-password-p margin-bot-sm">
+                Lorem ipsum dolor sit amet consectetur. Nunc quis sagittis etiam
+                nec cras. Ac eget etiam facilisi imperdiet nec sem. Arcu in.
+              </p>
+              <input
+                type="email"
+                class="forgot-password-email"
+                placeholder="Email Address"
+              />
+              <label
+                for="terms-condition"
+                class="forgot-password-terms-and-condition"
+              >
+                <input
+                  type="checkbox"
+                  name="terms-condition"
+                  id="terms-condition"
+                />
+                <span>
+                  By ticking this box, you are agreeing to the
+                  <a href="./terms-and-condition.html">Terms and Conditions</a>
+                  and <a href="./privacy-policy.html">Privacy Policy</a>.
+                </span>
+              </label>
+              <div class="text-align-cen">
+                <button class="btn-filled">Submit message</button>
+              </div>
+            </div>
+          </dialog>
+
+          <form action="" class="register-from">
+            <h2
+              class="heading-secondary uppercase text-align-cen margin-bot-sm"
+            >
+              Register
+            </h2>
+            <input type="text" placeholder="First Name" />
+            <input type="email" placeholder="Email Address" />
+            <input type="password" placeholder="Password" />
+            <input type="text" placeholder="Confirm Password" />
+            <label for="terms-conditions" class="terms-and-condition-box">
+              <input
+                type="checkbox"
+                name="terms-conditions"
+                id="terms-conditions"
+              />
+              <span>
+                By ticking this box, you are agreeing to the
+                <a href="./terms-and-condition.html">Terms and Conditions</a>
+                and <a href="./privacy-policy.html">Privacy Policy</a>.
+              </span>
+            </label>
+            <button class="btn-filled">Register</button>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <div id="footer"></div>
+    <script src="../js/index.js"></script>
+  </body>
+</html>

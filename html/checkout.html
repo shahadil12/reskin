@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/query.css" />
+  </head>
+  <body id="checkout-page">
+    <div class="header-section-wrapper">
+      <div id="header"></div>
+      <section class="section-checkout">
+        <div class="checkout-container">
+          <div class="checkbox-details">
+            <h2 class="heading-primary uppercase margin-bot-sm">
+              secure checkout
+            </h2>
+            <p class="checkout-p margin-bot-md">
+              Lorem ipsum dolor sit amet consectetur. Hendrerit id sed blandit
+              viverra dui maecenas diam. Massa maecenas feugiat id ipsum. Nunc
+              sed donec
+            </p>
+          </div>
+          <div class="progress-bar">
+            <div class="progress">
+              <div class="active dot"></div>
+              <p>your basket</p>
+            </div>
+            <div class="progress">
+              <div class="active dot"></div>
+              <p>secure checkout</p>
+            </div>
+            <div class="progress">
+              <div class="dot"></div>
+              <p>Checkout complete</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <main>
+      <section class="section-billing">
+        <div class="billing-details">
+          <h2 class="heading-secondary text-align-cen uppercase margin-bot-sm">
+            Billing Details
+          </h2>
+          <form action="" class="billing-form grid grid--2--cols margin-bot-sm">
+            <input type="text" name="" id="" placeholder="First Name" />
+            <input type="text" name="" id="" placeholder="Last Name" />
+            <input type="text" name="" id="" placeholder="Mobile Number" />
+            <input type="text" name="" id="" placeholder="Date of Birth" />
+            <input
+              type="email"
+              name=""
+              id=""
+              placeholder="Email Address"
+              class="email"
+            />
+            <input type="text" name="" id="" placeholder="Address Line 1" />
+            <input type="text" name="" id="" placeholder="Address Line 2" />
+            <input type="text" name="" id="" placeholder="City/Town" />
+            <select name="" id="">
+              <option value="india">India</option>
+              <option value="New zealend">New Zealend</option>
+            </select>
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Country/State/Province"
+            />
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Zip Code/Postal Code"
+            />
+            <label for="terms-condition" class="checkout-terms-and-condition">
+              <input
+                type="checkbox"
+                name="terms-condition"
+                id="terms-condition"
+              />
+              <span>
+                By ticking this box, you are agreeing to the
+                <a href="./terms-and-condition.html">Terms and Conditions</a>
+                and <a href="./privacy-policy.html">Privacy Policy</a>.
+              </span>
+            </label>
+            <button class="btn-outline">Go Back</button>
+            <a class="btn-filled btn" href="../html/payment.html"
+              >Secure Payment</a
+            >
+          </form>
+          <img src="../img/Mastercard.png" alt="allowed card image" />
+        </div>
+
+        <div class="cart-summary">
+          <h2 class="heading-secondary cart-summary-h uppercase text-align-cen">
+            Cart Summary
+          </h2>
+          <div class="service-details-box">
+            <div class="service-details">
+              <span class="service-name">SEO - platinum package</span>
+              <span class="service-price">£100.00 </span>
+              <img
+                src="../img/close small.png"
+                alt="close icon"
+                class="close-icon"
+              />
+            </div>
+            <span class="service-period">3 Months</span>
+          </div>
+
+          <div class="service-details-box">
+            <div class="service-details">
+              <span class="service-name">SEO - platinum package</span>
+              <span class="service-price">£100.00 </span>
+              <img
+                src="../img/close small.png"
+                alt="close icon"
+                class="close-icon"
+              />
+            </div>
+            <span class="service-period">3 Months</span>
+          </div>
+
+          <div class="service-details-box last">
+            <div class="service-details">
+              <span class="service-name">SEO - platinum package</span>
+              <span class="service-price">£100.00 </span>
+              <img
+                src="../img/close small.png"
+                alt="close icon"
+                class="close-icon"
+              />
+            </div>
+            <span class="service-period">3 Months</span>
+          </div>
+
+          <div class="break-up">
+            <div class="discount-details">
+              <span class="discount"
+                >Discount (<span class="coupon">Example Coupon</span>)</span
+              >
+              <span class="discount-amount">£5.00</span>
+            </div>
+            <div class="total-discount">
+              <span class="sub-total">Subtotal</span>
+              <span class="sub-total-amount">£67.71</span>
+            </div>
+            <div class="total">
+              <span class="total">Total</span>
+              <span class="total-amount">£62.71</span>
+            </div>
+
+            <div class="discount-box">
+              <input
+                type="text"
+                placeholder="Discount Amount"
+                class="discount-input"
+              />
+              <button class="btn-outline">Apply</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="footer"></div>
+    <script src="../js/index.js"></script>
+  </body>
+</html>

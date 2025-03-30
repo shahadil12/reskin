@@ -1,7 +1,7 @@
 (async function () {
   const [headerRes, footerRes] = await Promise.all([
-    await fetch("header.html"),
-    await fetch("footer.html"),
+    await fetch("../html/header.html"),
+    await fetch("../html/footer.html"),
   ]);
 
   const [header, footer] = await Promise.all([
@@ -19,9 +19,11 @@
   const termsAndConditionSpan = document.querySelector(".footer-terms");
   const privacyPolicySpan = document.querySelector(".footer-policy");
 
-  mobileNavBtnEl.addEventListener("click", () => {
-    headerEl.classList.toggle("nav-open");
-  });
+  if(mobileNavBtnEl){
+    mobileNavBtnEl.addEventListener("click", () => {
+      headerEl.classList.toggle("nav-open");
+    });
+  }
 
   termsAndConditionSpan.addEventListener("click", () => {
     const baseUrl =
